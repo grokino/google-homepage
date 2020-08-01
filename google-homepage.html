@@ -1,20 +1,98 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <style media="screen">
+    <style>
+
+*{
+    box-sizing: border-box;
+  }
+body{
+      font-family: arial,sans-serif;
+      margin: 0;
+      padding 0;
+    }
+    .as{
+      padding-top: 11px;
+    }
+    .as ul{
+      list-style-type: none;
+      text-align: left;
+      justify-content: space-between;
+      display: inline;
+
+
+    }
+    .as li{
+      display: inline-block;
+      justify-content: space-between;
+
+    }
+    .as li a{
+      display: block;
+      text-decoration: none;
+      color: black;
+      justify-content: space-between;
+      width: 60px;
+
+    }
+    .eis{
+      padding-top: -30px;
+      margin-top: -20px
+    }
+   .eis ul{
+     list-style-type: none;
+     text-align: right;
+     justify-content: space-between;
+     margin: 0 0 0 0;
+     padding: 0 0 0 0;
+
+
+   }
+   .eis li {
+     display: inline-block;
+     justify-content: space-between;
+     margin: 0;
+     padding: 0;
+     width: 70px
+    }
+
+    .eis li a{
+      text-decoration: none;
+      color: black;
+
+
+    }
+
+
       .main{
+        align-items: center;
         padding-top: 150px;
         padding-bottom: 30px;
-        padding-left: 150px;
+        padding-left: 187px;
         padding-right:25px
       }
       .searchbar1{
-        padding-left: 140px;
+        align-items: center;
+        padding-left: 180px;
         padding-right: 125px;
+        padding-bottom: 10px;
       }
+
       .searchbar{
         padding-left:90px;
+
       }
+      .bu{
+        padding-left:174px;
+        padding-top: 110px;
+        padding-right: 222px;
+      }
+    .bu a{
+    float: center;
+      padding: 20px;
+    }
+
+
 
     </style>
     <meta charset="utf-8">
@@ -22,17 +100,44 @@
   </head>
 
   <body>
+<header>
+  <div class="as">
+    <ul>
+      <li> <a href="#">About</a> </li>
+      <li> <a href="#"> Store</a> </li>
+    </ul>
+  </div>
+  <div class="eis">
+    <ul>
+    <li> <a href="#"> email </a> </li>
+    <li> <a href="#">images</a> </li>
+    <li> <a href="#"> <button type="button"  name="sign in"> Sign In</button> </a> </li>
+    </ul>
+  </div>
+
+</header>
+
 
 
     <div  class= "main">
+     <a href="https://duckduckgo.com/">
       <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="googlelogo">
+     </a>
     </div>
+
     <div class="searchbar1">
+
         <input id="searchbar" type="text" name="search bar" class="searchbar"  >
+
     </div>
+      <span class="bu">
+
+          <a href="#">  <button type="button" name="0">  Google Search </button> </a>
+          <a href="#">  <button type="button" name="1">Feeling Lucky</button>  </a>
+
+      </span>
 
 
 
 
-  </body>
 </html>

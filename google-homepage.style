@@ -1,0 +1,121 @@
+<style>
+
+*{
+box-sizing: border-box;
+}
+body{
+  font-family: arial,sans-serif;
+  margin: 0;
+  padding 0;
+}
+.as{
+  padding-top: 11px;
+}
+.as ul{
+  list-style-type: none;
+  text-align: left;
+  justify-content: space-between;
+  display: inline;
+
+
+}
+.as li{
+  display: inline-block;
+  justify-content: space-between;
+
+}
+.as li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  justify-content: space-between;
+  width: 60px;
+
+}
+.eis{
+  padding-top: -30px;
+  margin-top: -20px
+}
+.eis ul{
+ list-style-type: none;
+ text-align: right;
+ justify-content: space-between;
+ margin: 0 0 0 0;
+ padding: 0 0 0 0;
+
+
+}
+.eis li {
+ display: inline-block;
+ justify-content: space-between;
+ margin: 0;
+ padding: 0;
+ width: 70px
+}
+
+.eis li a{
+  text-decoration: none;
+  color: black;
+
+
+}
+
+
+  .main{
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 15px;
+    padding-left: 187px;
+    padding-right:25px
+  }
+  .searchbar1{
+    align-items: center;
+    padding-left: 190px;
+    padding-right: 155px;
+    padding-bottom: 10px;
+  }
+
+  .searchbar{
+    padding-left:90px;
+
+  }
+  .bu{
+    padding-left:174px;
+    padding-top: 110px;
+    padding-right: 222px;
+  }
+.bu a{
+float: center;
+  padding: 20px;
+}
+
+.botnav {
+  bottom: 0;
+  position: fixed;
+  width: 100%
+}
+.botnav li{
+  list-style-type: none;
+  float: left;
+  padding-top: 30px;
+  margin-left: -25px;
+  font-size: 12px;
+}
+.botnav  a{
+
+  justify-content: space-between;
+  padding: 15px 16px;
+  text-decoration: none;
+  color: black
+
+
+}
+.botnav2 li{
+  list-style-type: none;
+  float: right;
+  padding-top: 30px;
+}
+
+
+
+</style>
