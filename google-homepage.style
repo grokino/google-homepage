@@ -70,13 +70,18 @@ body{
   }
   .searchbar1{
     align-items: center;
-    padding-left: 190px;
+    padding-left: 180px;
     padding-right: 155px;
     padding-bottom: 10px;
+
   }
 
   .searchbar{
-    padding-left:90px;
+    padding-left:20px;
+    width: 282px;
+    height: 27px;
+    border-width: 2.5px;
+    border-style: groove;
 
   }
   .bu{
@@ -115,7 +120,15 @@ float: center;
   float: right;
   padding-top: 30px;
 }
-
+#buttons{
+ background-color: #a9efee;
+}
+#button0{
+  background-color: #a9efee;
+}
+#button1{
+  background-color: #a9efee;
+}
 
 
 </style>

@@ -11,6 +11,9 @@ inside the div:
 
 For the nav bars I simply brok up the links into two different containers. so I could easily seperate them to the right and left.
 I experimented with padding and margins to get the text where I needed to.
-I believe there would have been a much easier way to do all of this, I am still lacking in essential css knowledge. 
+I believe there would have been a much easier way to do all of this, I am still lacking in essential css knowledge.
+
+changed the style of the buttons by giving them an id.
+Used the colour a9efee (light grey)
 
 ...end of notes.....
